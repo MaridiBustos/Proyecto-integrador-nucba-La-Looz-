@@ -1,0 +1,307 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 100%;
+   padding:0;
+   margin:0
+  
+
+}
+
+
+
+
+.encabezado {margin: 0;
+padding: 0;
+background-image: url(.//img/fondo\ guirnalda.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+width: 100%;
+height: 100vh;
+border: 0;
+}
+
+
+
+
+
+.login-box {
+    width: 50vh;
+    height: 60vh;
+    background:lightsalmon;
+    color: #fff;
+    top: 50%;
+    left: 80%;
+    position: relative; top: 40vh;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    display: inline-block;
+  }
+   
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 5vh;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background: transparent;
+    outline: none;
+    height: 3vh;
+    color: lightgrey;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 5vh;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: progress;
+    background: #178ccf;
+    color: rgb(66, 8, 8);
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: rgb(122, 54, 54);
+  }
+  
+  .login-box a:hover {
+    color: rgb(26, 50, 54);
+  }
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start ;
+    
+}
+
+/*.encabezado { 
+    background-image: url(.//img/guirnalda-de-bombillas-exterior-15.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    
+
+} 
+*/
+
+
+
+li {list-style: none;
+display: inline-block;
+margin: 10px;
+font-family: fantasy;
+justify-content: space-between;
+
+background-color: wheat;
+backface-visibility: hidden;
+padding: 10px;
+border: 1px solid white;
+border-radius: 10px;
+opacity: 70%;
+transition: 0.5s;
+
+}
+
+.icon-menu 
+  { 
+    opacity: 0;
+width: 40px;
+height: 40px;
+justify-content: center;
+align-items: center; }
+
+
+
+li:hover {
+    background-color: yellow;
+}
+
+
+a { 
+    list-style: none;
+display: inline-block;
+font-family: fantasy;
+background-color: transparent;
+color: black;
+opacity: 100%;
+transition: 0.5s;
+}
+
+img { 
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+   
+ }
+
+ .contenedor-info { 
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+    align-items: center;
+    height: 80%;
+    flex-direction: column;
+  
+ }
+
+ h1 {
+     font-family:sans-serif;
+     font-style: italic; 
+     color: white;
+     font-size: 60px;
+     font-weight:700;
+     text-shadow: 3px 3px 7px rgb(14, 13, 13),3px 3px 7px rgb(14, 13, 13),3px 3px 7px rgb(14, 13, 13);
+ }
+
+ h2 {
+     font-size: 50px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style: oblique; 
+     color: whitesmoke;
+     text-shadow: 4px 4px 4px rgb(252, 249, 75);
+
+ }
+
+ p {
+     background-color: yellow; 
+     opacity: 50%;
+     font-weight: 900;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 30px ;
+     text-align:left;
+     padding: 20px
+   
+
+     
+     
+ }
+.boton-prod { 
+     background-color: rgba(240, 240, 80, 0.972);
+     transition: 1s;
+     height: 100px;
+     width: 50%;
+     margin-bottom: 90px;
+     border-right:50px;
+     border-radius: 60px;
+     font-size: 15px;
+     font-weight: 500;
+     padding: 5px;
+     justify-content: center;
+     text-transform: uppercase;
+    
+ }
+ 
+ .boton-prod:hover { 
+     background-color: rgb(255, 115, 0);
+    }
+
+
+.imagenes {
+  height: 400vh;
+  width: 500vh;
+  
+
+
+}
+
+
+section {
+    background-color: rgb(46, 43, 43);
+    background-size: contain;
+   
+}
+
+   footer {
+        background-color: black;
+        
+    }
+
+ h5 { 
+     background-color: none;
+     color: wheat;
+     display: inline;
+  
+     width: 10VH;
+     height: 10vh;
+     padding-right:  30px; ;
+
+ }
+ 
+.fa-instagram {
+    color: wheat;
+    width: 100px;
+    height: 100px;
+    
+}
+
+   button {
+    background-color: rgba(240, 240, 80, 0.972);
+    transition: 1s;
+    height: 20px;
+    width: 20%;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+    text-transform: uppercase;
+   }
+   
+
+    @media(max-width:600px) {
+
+        .menu  { 
+                display:none;} 
+        .icon-menu {opacity: 100;}
+        
+        h1 {font-size: 100% ;}
+        }
+    
+        h2 {font-size: 100% ;}
+
+        p {font-size: 100% ;}
+
+        .boton-prod {font-size: 100% ;
+            }
+    
+           .login-box {
+             position: center ;
+           }
+    }
+  
+
+
+
+
